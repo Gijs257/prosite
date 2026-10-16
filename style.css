@@ -1,0 +1,137 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+body {
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 10vh 80vh 28vh 28vh;
+}
+#nav {
+    background-color: white;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-image: url("images/Screenshot\ 2026-10-15\ at\ 15.00.57.png");
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+#nav2 {
+    background-color: white;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-image: url("images/Screenshot\ 2026-10-15\ at\ 15.01.34.png");
+       background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#nav3 {
+    background-color: white;
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    background-image: url("images/Screenshot\ 2026-10-15\ at\ 15.01.58.png");
+       background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#chairman {
+    background-color: grey;
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    background-image: url("images/chairman-homepage.png");
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#Allfonts {
+    background-color: orange;
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+    border-radius: 30px;
+    background-image: url("images/Screenshot\ 2026-10-16\ at\ 13.42.33.png");
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#kleurenwaaier {
+    background-color:black;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    border-radius: 30px;
+    background-image: url("images/Screenshot\ 2026-10-16\ at\ 13.47.11.png");
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#familie {
+    background-color: lightblue;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    border-radius: 30px;
+    background-image: url("images/Screenshot\ 2026-10-16\ at\ 13.48.35.png");
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#fontsroze {
+    background-color: pink;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    border-radius: 30px;
+    background-image: url("images/Screenshot\ 2026-10-16\ at\ 13.47.36.png");
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#fontsbeige {
+    background-color: beige;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    border-radius: 30px;
+    background-image: url("images/Screenshot\ 2026-10-16\ at\ 13.48.23.png");
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#fontsblauw {
+    background-color: blue;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    border-radius: 30px;
+    background-image: url("images/Screenshot\ 2026-10-16\ at\ 13.47.52.png");
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#sizes {
+    background-color: orangered;
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+    border-radius: 30px;
+    background-image: url("images/Screenshot\ 2026-10-16\ at\ 13.48.06.png");
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
